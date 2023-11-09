@@ -4,6 +4,8 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
+app.use(express.static('static'));
+
 const commerceRouter = require('./controllers/commerce');
 const middleware = require('./utils/middleware');
 
