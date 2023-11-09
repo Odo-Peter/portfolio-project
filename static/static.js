@@ -1,17 +1,6 @@
-// <!DOCTYPE html>
-// <html lang="en">
-//   <head>
-//     <meta charset="UTF-8" />
-//     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-//     <title>E-commerce Landing Page</title>
-//   </head>
-// <body>
-//   Hello E-commerce
-// </body>
-// </html>
-
+// A simple render page for the homepage
 const staticHTML = () => {
-  return '<body style="background-color: #000; "><h1 style="color: white" >Hello E-commerce</h1></body>';
+  return '<body style="background-color: #000; color: white;"><div style="min-height: 100vh; width: 100%; display: flex; justify-items: center; align-items: center; flex-direction: column; "><h1 >Hello Dear Scraper</h1><p>Click on the link below to read the Documentations</p><button style="border: none; outline: none; background-color: limegreen; padding: 10px 0; width: 50vw; border-radius: 14px; cursor: pointer; margin-bottom: 8px;" ><a style="text-decoration: none; color: white; height: 100%; width: 100%;" href="http://localhost:3000/" target="_blank" >Read the Docs<a/></button></div></body>';
 };
 
 module.exports = staticHTML;
